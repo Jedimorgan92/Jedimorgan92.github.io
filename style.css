@@ -1,0 +1,102 @@
+html {
+    background: url("/Users/jessicamorgan/Desktop/hwweek1pt2/Basic-Portfolio/assets/images/image.png") no-repeat center fixed; 
+    background-size: cover;
+}
+
+header {
+    background-color:#4aaaa5;
+    width: 300px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color:#777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#4aaaa5;
+}
+
+
+.section1 {
+    border-style: solid;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+.firstsection {
+    background-color: #ffffff;
+    float: left;
+    width: 200px;
+    margin: 15px 20px 0 5px;
+    text-align: center;
+}
+
+.secondsection {
+    background-color: #ffffff;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+
+.thirdsection {
+    background-color: #ffffff;
+    border-style: solid;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -20px;
+  }
+  .footer,
+  .push {
+    padding: 1em;
+    color: white;
+    background-color: #777777;
+    clear: left;
+    text-align: center;
+    height: 10px;
+  }
